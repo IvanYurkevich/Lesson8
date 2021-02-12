@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.formContent {
+    padding: 20px;
+    max-width: 1400px;
+    min-width: 200px;
+}
+form {
+    border: 2px double red;
+    padding: 20px;
+     min-height: 400px;
+}
+p, select, span, input, button {
+    margin-top: 15px;
+}
+textarea {
+    margin-top: 5px;
+}
+button {
+    display: block;
+}
+/* CHANGING SIZE INPUT!!!!!!!!!!!!!!!!!!!!!!!!!!!easyyyyyyyyyyyyyy */
+.put input {
+    width: 100%;
+  }
+.put {
+    margin-left: 140px; /* Ширина кнопки + отступ */
+  }
+.name {
+    box-sizing: border-box;
+    float: left;
+    width: 120px;
+  }
+  /*  CHANGING SIZE INPUT!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+select {
+      margin-left: 83px;
+      width: 25%;
+  }
+.rad {
+      margin-left: 20px;
+  }
+textarea {
+      width: 100%;
+  }
+button {
+      width: 100px;
+  }
+.rad {
+    display: inline-block;
+}
+label {
+    margin-left: 5px;
+}
