@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slide {
+            height: 450px;
+            position: relative;
+        }
+        .text {
+          font-size: 18px;
+        
+        }
+        .topLeft {
+            background-image: url(./biohazard.png);
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            z-index: 1;
+            top: 20px;
+            left:400px;
+            transform:translateX(-50%);
+
+        }
+        .topRight{
+            background-image: url(./Man-and-woman.png);
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            z-index: 1;
+            top: 20px;
+            left:620px;
+            transform:translateX(-50%);
+
+        }
+        .nosmoke  { 
+            background-image: url(./No_smoking.png);
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 475px;
+            top: 100px;
+            transform: translateX(-70px);
+            z-index: 99;
+           
+        }
+        .bott {
+            background-image: url(./Yin_and_Yang.png);
+            height: 200px;
+            width: 200px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            z-index: 1;
+            left:510px;
+            top: 200px;
+            transform:translateX(-50%);
+
+        }
+        .topLeft:hover {
+            z-index: 999;
+            background-size: contain;
+            height: 300px;
+            width: 300px;
+            
+        }
+        .topRight:hover {
+            z-index: 999;
+            background-size: contain;
+            height: 300px;
+            width: 300px;
+        }
+        .bott:hover {
+            z-index: 999;
+            background-size: contain;
+            height: 300px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="objects">
+        <div class="container">
+            <div class="text">
+                <p>
+                    Я к вам пишу — чего же боле? Что я могу еще сказать? Теперь, я знаю, в вашей воле Меня презреньем наказать. Но вы, к моей несчастной доле Хоть каплю жалости храня, Вы не оставите меня. Сначала я молчать хотела; Поверьте: моего стыда Вы не узнали б никогда, Когда б надежду я имела Хоть редко, хоть в неделю раз В деревне нашей видеть вас. 
+                </p>
+            </div>
+            <div class="wraper">
+            <div class="slide">
+                <div class="topLeft">
+                </div>
+                <div class="topRight">
+                </div>
+                <div class="nosmoke">
+                </div>
+                <div class="bott">
+                </div>
+            </div>
+
+            </div>
+            <div class="text">
+                <p>
+                    Чтоб только слышать ваши речи, Вам слово молвить, и потом Все думать, думать об одном И день и ночь до новой встречи.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
